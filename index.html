@@ -3,13 +3,66 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>XtraWyze · Games</title>
-<style>body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.55;color:#183447;background:#f1ebd8}a{color:#14706a}</style>
+<title>Wynn's Repair L.L.C. · XtraWyze Games</title>
+<meta name="description" content="Wynn's Repair L.L.C. is a Michigan company that publishes mobile games under the XtraWyze name, including Fix-It Factory.">
+<style>
+  :root { --ink:#183447; --paper:#f1ebd8; --card:#fbf7ec; --teal:#14706a; --line:#d9cfb4; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, sans-serif; line-height:1.55; color:var(--ink); background:var(--paper); }
+  header { background:var(--ink); color:#fff; padding:2.2rem 1rem 1.8rem; }
+  header .wrap, main, footer { max-width:760px; margin:0 auto; }
+  header h1 { margin:0; font-size:1.9rem; letter-spacing:.01em; }
+  header p { margin:.35rem 0 0; opacity:.85; }
+  main { padding:1.2rem 1rem 2rem; }
+  h2 { font-size:1.2rem; margin:2rem 0 .6rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:1.1rem 1.2rem; }
+  .app { display:flex; gap:1rem; align-items:flex-start; }
+  .app img { width:84px; height:84px; border-radius:18px; flex:none; }
+  .app h3 { margin:0 0 .25rem; font-size:1.1rem; }
+  .app p { margin:.2rem 0; }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:.35rem 1rem; margin:0; }
+  dt { font-weight:600; }
+  dd { margin:0; }
+  a { color:var(--teal); }
+  footer { padding:1rem; font-size:.85rem; opacity:.75; border-top:1px solid var(--line); }
+</style>
 </head>
 <body>
-<h1>XtraWyze</h1>
-<h2>Fix-It Factory</h2>
-<p>Sort conveyor parts in triples and restore a workshop one repair at a time.</p>
-<p><a href="fixit-factory/privacy.html">Privacy policy</a> · <a href="mailto:kolywing2@gmail.com">Contact</a></p>
+<header>
+  <div class="wrap">
+    <h1>Wynn's Repair L.L.C.</h1>
+    <p>Mobile games published as <strong>XtraWyze</strong> · Whitehall, Michigan</p>
+  </div>
+</header>
+
+<main>
+  <h2>About us</h2>
+  <p>Wynn's Repair L.L.C. is a Michigan limited liability company. We build and publish small, friendly mobile games under the XtraWyze name. Our games are designed for short sessions, play offline and keep your progress on your own device.</p>
+
+  <h2>Our games</h2>
+  <div class="card app">
+    <img src="fixit-factory/icon.png" alt="Fix-It Factory icon">
+    <div>
+      <h3>Fix-It Factory</h3>
+      <p>Sort conveyor parts in triples and restore a workshop one repair at a time.</p>
+      <p>Android · Free with ads · <a href="fixit-factory/privacy.html">Privacy policy</a></p>
+    </div>
+  </div>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <dl>
+      <dt>Company</dt><dd>Wynn's Repair L.L.C.</dd>
+      <dt>Location</dt><dd>Whitehall, Michigan, United States</dd>
+      <dt>Email</dt><dd><a href="mailto:kolywing2@gmail.com">kolywing2@gmail.com</a></dd>
+      <dt>Phone</dt><dd><a href="tel:+12317405649">(231) 740-5649</a></dd>
+    </dl>
+  </div>
+  <p>For help with a game, privacy questions or data requests, email us and include the game's name. We usually reply within two business days.</p>
+</main>
+
+<footer>
+  © 2026 Wynn's Repair L.L.C. · Michigan Entity ID 803217601 · D-U-N-S 136-085739
+</footer>
 </body>
 </html>
